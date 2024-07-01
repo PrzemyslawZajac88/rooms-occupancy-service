@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "82759bfe-0ba8-4d24-aac3-393820d57e87",
+		"name": "RoomOccupancyManager",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/occupancy/calculate",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"customersPotentialPayment\": [1,2,3,4,5],\n    \"rooms\":{\n        \"PREMIUM\" : 3,\n        \"ECONOMY\": 2\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/occupancy/calculate",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"occupancy",
+						"calculate"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

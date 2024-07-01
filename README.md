@@ -4,12 +4,12 @@
 JAVA: OpenJDK 22.0.1
 GRADLE: Gradle 8.8
 
-# How to run test from CLI
+## How to run test from CLI
 ```
 gradle test
 ```
 
-# How to run app
+## How to run app
 
 ### Using gradle;
 ```
